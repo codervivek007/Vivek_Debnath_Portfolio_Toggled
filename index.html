@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/99ccc8e085.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./logo-no-background.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <img src="./moon.png" id="icon">
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Vivek Debnath</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- <.........................About......................> -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./WhatsApp Image 2022-12-14 at 17.51.48.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Myself Vivek Debnath Resident of Tripura From India, Graduated as Civil Engineer But I was very much fascinated by Computers which results my Curiosity to learn and Explore this field . Seeking a beginner role to enhance and explore my techincal knowledge gained at my course in the last two years. I am
+                        have completed my B.tech degree from TIT college.<br><span><b>Won the Quiz challenge held at the campus.</b></span><br>Skilled in
+                        HTML5, CSS, Node.Js, Javascript, React.Js,Bootstrap, Problem solving, Public Speaking etc.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Civil Engineer/Web Developer</span><br>Designing Web,ETABS,Lumin</li>
+                            <li><span>Backend </span><br>MongoDB,AJAX,Python,AutoCAD,Tekla,Revit</li>
+                            <li><span>Frontend</span><br>JavaScript,CSS3.0,Bootstrap,React,StaadProV8i,SAP2000</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Junior Engineer for North Frontier Railway</li>
+                            <li><span>2021-2022 </span><br>Site Engineer For B.S.F BOP West Bengal</li>
+                             
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 July-Current</span><br>Fullstack Web Development from Digikull</li>
+                            <li><span>2017-2020</span><br>B.tech in Civil Engineering at TIT </li>
+                            <li><span>2016-2017</span><br>Diploma in Computer Application</li>
+                            <li><span>2013-2016</span><br>Diploma in Civil Engineering at TIT</li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ......................Services..................... -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development Fullstack</h2>
+                    <p>Complete solution for making Websites including frontend & Backend </p>
+                    <a href="https://en.wikipedia.org/wiki/Web_developer">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <h2>Structural & Constructional Services</h2>
+                    <p>Resedential or Commercial Building plans to Execution Project including Detailed Estimate</p>
+                    <a href="https://en.wikipedia.org/wiki/Structural_engineer">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <h2>Invoice , GST Billing</h2>
+                    <p>Billings inculding GST , Purchases and Logistics Services</p>
+                    <a href="https://en.wikipedia.org/wiki/Logistics">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-playstation"></i>
+                    <h2>Youtube Gaming</h2>
+                    <p>Game Coaching, Discord Support,Live Match</p>
+                    <a href="https://www.youtube.com/watch?v=99D04Jif5wU">Check God OF War Gameplay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..........................Portfolio.................... -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="./work-1.png">
+                    <div class="layer">
+                        <h3>Tip Calculator</h3>
+                        <p>Calculating Tip While Checking out Hotel/Resort </p>
+                        <a href="https://codervivek007.github.io/Tip_Calculator/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work-2.png">
+                    <div class="layer">
+                        <h3>NASA API</h3>
+                        <p>Daily Update From NASA API </p>
+                        <a href="https://codervivek007.github.io/NASA-API/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./work-3.png">
+                    <div class="layer">
+                        <h3>Walmart Clone Website</h3>
+                        <p>American online Store Cloned in Realtime</p>
+                        <a href="https://codervivek007.github.io/Walmart_Clone/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.twitch.tv/muzzlebreak69" class="btn">Catch Me Live</a>
+        </div>
+    </div>
+
+<!-- ................................Contact....................... -->
+     <div id="contact">
+     <div class="container">
+         <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Vivekdebnath19@gmail.com.com</p>
+                <p><i class="fa-solid fa-phone"></i>+917005801855</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/alex.mercer.3150/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/vivek-debnath-b45b1a198/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/encrypted_men/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/codervivek007"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://discord.gg/pfuqCcwz"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.youtube.com/@vivekdebnath"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+                <a href="./CV_2021VivekDebnathNew.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+         </div>
+</div>
+<div class="copyright">
+    <p>Copyright &copy; Vivek Debnath 2022 &nbsp;<i class="fa-solid fa-fire"></i></p>
+</div>
+</div>
+
+
+
+   <script src="./script.js"></script>
+</body>
+</html>
